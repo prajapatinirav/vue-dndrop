@@ -1,6 +1,6 @@
 /**
  * Bundle of: vue-dndrop
- * Generated: 2025-03-19
+ * Generated: 2025-03-21
  * Version: 1.2.7
  */
 
@@ -403,9 +403,9 @@
     var values = {
       translation: 0
     };
-    window.addEventListener('resize', function () {
+    /*window.addEventListener('resize', function () {
       invalidateContainerRectangles(containerElement);
-    });
+    });*/
     setTimeout(function () {
       invalidate();
     }, 10);

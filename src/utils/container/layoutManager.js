@@ -50,9 +50,9 @@ export default function layoutManager (containerElement, orientation, _animation
   const values = {
     translation: 0
   };
-  window.addEventListener('resize', function () {
+  /*window.addEventListener('resize', function () {
     invalidateContainerRectangles(containerElement);
-  });
+  });*/
   setTimeout(() => {
     invalidate();
   }, 10);
